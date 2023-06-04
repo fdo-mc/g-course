@@ -6,7 +6,8 @@ body {
 
 .square {
 	width: 30%;
-	background: purple;
+	/*background: purple;*/
+	color: black;
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
@@ -73,6 +74,7 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
+	cursor: pointer;
 }
 
 /* ************************* */
