@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +7,19 @@
 
   <link rel="stylesheet" href="index.css">
 
-  <title>Color Guessing Game - X1</title>
+  <title>Number Guessing Game</title>
 </head>
-
 <body>
+
+  <div class="wrapper">
+    <header>Guess a number from 1 to 100</header>
+    <p class="guess"></p>
+    <div class="input-field">
+      <input type="number" />
+      <button>Check</button>
+    </div>
+    <p>You have <span class="chances">10</span> chances!!</p>
+
   <h1>fmc-RGB Color Guessing Game
     <br>
     <span id="colorDisplay">RGB</span>
@@ -24,16 +32,6 @@
     <button id="hardButton" class="selected">Hard</button>
 
   </div>
-  <div id="container">
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-  </div>
-
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </body>
-
 </html>
