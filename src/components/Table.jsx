@@ -1,6 +1,5 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import "./table.css"
-import { useEffect } from "react";
 
 const Table = () => {
     const [users, setUsers] = useState([]);
@@ -10,7 +9,7 @@ const Table = () => {
         .then((response) => response.json())
         .then(({ results }) => setUsers(results))
     },[])
-        //console.log( users.length);
+
     return (
         //users.length>0 &&
     <div className="table">
